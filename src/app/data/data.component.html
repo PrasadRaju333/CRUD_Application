@@ -1,0 +1,24 @@
+
+<div class="content">
+<p class="para">If You want to add Data Click here<br> <button class="btn btn-primary bttn" (click)="navigate()">Add</button></p>
+
+<table class="table table-striped tbl" border="2" *ngIf="details && details.length > 0">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Image Url</th>
+      <th>IsAvailable</th>
+      <th>Actions</th> 
+    </tr>
+    <tr *ngFor="let detail of details">
+      <td>{{detail.title}}</td>
+      <td>{{detail.description}}</td>
+      <td>{{detail.imageUrl}}</td>
+      <td>{{detail.isAvailable}}</td>
+      <td>
+          <button class="btn btn-primary" (click)="edit(detail)" >Edit</button> 
+          <button class="btn btn-primary btnn" (click)="delete(detail)">Delete</button>
+    </td>
+    </tr>
+  </table>
+</div>

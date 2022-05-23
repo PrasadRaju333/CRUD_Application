@@ -1,0 +1,22 @@
+<div class="card">
+<form (submit)="onSubmit()" class="form-group form-align">
+    <div class="form-group">
+        <label class="text">Title</label>
+        <input type="text"  class="form-control fsize"[(ngModel)]="title" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="form-group" >
+        <label class="text">Description</label>
+        <input type="text" class="form-control fsize" [(ngModel)]="description" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="form-group">
+        <label class="text">Image URL</label>
+        <input type="text" class="form-control fsize" [(ngModel)]="ImageURL" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="form-group">
+        <label class="text ">iS Available</label>
+        <input type="checkbox" class="chkbx"  [(ngModel)]="isAvailable" [ngModelOptions]="{standalone: true}">
+    </div>
+    <button class="btn btn-primary btnn">Save</button>
+
+</form>
+</div>

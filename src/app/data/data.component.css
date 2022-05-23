@@ -1,0 +1,19 @@
+
+.para{
+    text-align: center;
+    margin: 30px;
+}
+
+.table>:not(caption)>*>*{
+    background-color: #0d6efd
+}
+.btnn{
+    margin-left: 10px;
+    
+}
+.bttn{
+    margin-top: 25px;
+}
+.tbl{
+    text-align: center;
+}

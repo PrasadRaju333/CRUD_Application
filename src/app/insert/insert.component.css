@@ -1,0 +1,24 @@
+.card{
+    /* background: linear-gradient(90deg, rgba(252,3,25,1) 16%, rgba(254,255,255,1) 100%); */
+    height: 350px;
+    width: 450px;
+    margin-left: 40%;
+    margin-top: 30px;
+    padding:20px
+}
+.fsize{
+    width: 400px;
+    margin-left: 25px;
+    margin: 10px;
+}
+.form-align{
+align-items: center;}
+.text{
+    font-weight: bold;
+}
+.chkbx{
+    margin-left: 15px;
+}
+.btnn{
+    margin-left:40%;
+}
